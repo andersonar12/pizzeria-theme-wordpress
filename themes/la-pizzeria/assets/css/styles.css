@@ -1,0 +1,440 @@
+/* Home */
+
+/* Colores Generales */
+
+:root{
+    --dark: #000000;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    width:100%;
+    color: black;
+}
+
+.bg-amarillo{
+    background-color:#e1e42e!important;
+}
+
+.bg-negro{
+    background-color: black!important;
+}
+
+.text-amarillo{
+    color:#e1e42e!important;
+}
+
+.text-dark{
+    color: var(--dark)!important;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 85px!important; 
+    }
+  }
+
+h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+p{
+    font-weight: 600;
+}
+
+.btn-dark{
+    border: 1px solid white;
+    border-radius: 1.5rem;
+}
+
+@media (max-width: 450px) { 
+
+    .btn{
+      font-size: 0.7rem;  
+    }
+
+}
+
+.orden{
+    order: 1;
+}
+
+@media (min-width:768px) {
+    .orden{
+        order: unset;
+    }
+}
+
+/* Header */
+
+
+nav.bg-dark {
+    background-color: #000000!important;
+    transition: all .5s ease!important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgb(255 255 255 / 90%);
+}
+
+header .nav-link{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* Header */
+
+/* Seccion slider */
+
+
+.gradient::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.45+73,0.6+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.45) 73%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 73%,rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 73%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+}
+.carousel{
+    color: white;
+}
+
+.contenido{
+    z-index: 10;
+}
+
+.carousel .item-1{
+   
+    background: url(../img/slider-home/slider-1.jpg) no-repeat  center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 65vw;
+    
+}
+
+.carousel .item-2{
+    
+    background: url(../img/slider-home/slider-2.jpg) no-repeat  center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 65vw;
+    
+    
+}
+
+.carousel .item-3{
+    
+    background: url(../img/slider-home/slider-3.jpg) no-repeat center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 65vw;
+}
+
+@media (max-width: 400px) { 
+    .carousel .item-1 p{
+     font-size: 2.7vw;
+    }
+
+    .carousel .item-2 img{
+        width: 55vw;
+    }
+
+    .carousel .item-3 img{
+        width: 55vw;
+    }
+}
+
+.carousel-control-next, .carousel-control-prev {   
+    z-index: 15;
+}
+/* Seccion slider */
+
+/* Seccion GOmovie */
+.go-movie{
+    background: url(../img/paginaprincipal/go-movie.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.go-movie .container-fluid{
+    padding: 5vw 5vw;
+}
+
+.go-movie h1,.go-movie p{
+    text-shadow: 0px 0px 4px #ffffff;
+}
+/* Seccion GOmovie */
+
+/* Seccion live-gps */
+.live-gps{
+    background: url(../img/paginaprincipal/live-gps.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.live-gps .container-fluid{
+    padding: 5vw 5vw;
+}
+/* Seccion live-gps */
+
+/* Seccion Asist-wit */
+.asist-wit{
+    background: url(../img/paginaprincipal/assistant.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.asist-wit .container-fluid{
+    padding: 8vw 6vw;
+}
+/* Seccion assits-wit */
+
+
+/* Seccion Asist-wit */
+.digital-waiter{
+    background: url(../img/paginaprincipal/waiter.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.digital-waiter .container-fluid{
+    padding: 8vw 7vw;
+    width: 100%;
+   height: 50vw;
+}
+
+/* .digital-waiter .col{
+    padding-right: 12vw;
+} */
+
+/* Seccion assits-wit */
+
+/* Seccion card productos */
+
+.productos .item-1{
+    background: url(../img/paginaprincipal/cards-productos/go-movie.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 34.5vw;
+    
+}
+
+.productos .item-2{
+    background: url(../img/paginaprincipal/cards-productos/urban-wifi2.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 34.5vw;
+    
+}
+
+.productos .item-3{
+    background: url(../img/paginaprincipal/cards-productos/live-gps.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 34.5vw;
+    
+}
+
+.productos .item-4{
+    background: url(../img/paginaprincipal/cards-productos/virtual-assistant.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 34.5vw;
+    
+}
+
+.productos .item-1, .productos .item-2,.productos .item-3,.productos .item-4{
+    padding: 4vw;
+    
+}
+
+.productos .imagen{
+ margin-bottom: 4vw;
+}
+@media (max-width: 768px) { 
+    .productos h3{
+        font-size: 6.5vw;
+    }    
+
+.productos .item-1{
+    height: 67vw;
+}
+.productos .item-2{
+    height: 67vw;
+}
+.productos .item-3{
+    height: 67vw;
+}
+.productos .item-4{
+    height: 67vw;
+}
+ }
+/* Seccion card productos */
+
+
+/* Footer Mapa */
+.footer{
+    background: url(../img/paginaprincipal/footer-mapa.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.footer .container{
+    padding: 6vw;
+    width: 100%;
+   height: 50vw;
+}
+
+@media (max-width: 768px) { 
+    .footer .col-1 img{
+        display: none;
+    } 
+
+    .footer p{
+        text-align: center;
+        margin: 0;
+    }
+}
+.copyright{
+    background-color: #131313;
+}    
+/* Footer Mapa */
+
+/* ****************Pagina GOmovie**************** */
+
+/* .caracteristicas .card {
+
+    background-color:transparent;
+  
+} */
+
+.caracteristicas .card-body{
+    padding:2vw;
+    height: 22vw;
+}
+
+.caracteristicas .card-body h4{
+    font-size: 1.7vw;
+}
+
+@media (max-width: 768px) { 
+
+    .caracteristicas .card-body{
+        padding:2vw;
+        height: 37vw;
+    }
+    
+    .caracteristicas .card-body h4{
+        font-size: 5vw;
+    }
+}
+
+.experiencia h4{
+    font-size: 2vw;
+}
+
+.experiencia p, .experiencia a{
+    font-size: 1.5vw;
+}
+
+@media (max-width: 768px) { 
+
+
+    .experiencia h4{
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .experiencia p, .experiencia a{
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+}
+
+.producto-1 p,.producto-2 p{
+    font-weight: unset;
+}
+
+.producto-2{
+    background-color: #f1f1f1;
+}
+
+.urbano .texto p{
+    line-height: 28px;
+    font-weight: unset;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vr .texto p{
+    line-height: 28px;
+    font-weight: unset;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vr .parrafo p{
+    font-weight: unset;
+}
+/* ****************Pagina GOmovie**************** */
